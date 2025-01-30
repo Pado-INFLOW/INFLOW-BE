@@ -1,6 +1,6 @@
 ## Team _Pado_<a id="팀-소개">
 
-[<img src="https://img.shields.io/badge/Notion-Link-333333?logo=Notion">](https://www.notion.so/4vengers-1133c20995cb8086b316f83013f75823)
+[<img src="https://img.shields.io/badge/Notion-Link-333333?logo=Notion">](https://cool-mallow-c40.notion.site/pado-FINAL-12850a7aee80802da129e6343bb2f12b?pvs=4)
 | <img src="https://github.com/user-attachments/assets/5a0d8aa8-0a1f-41f3-a93f-b2985c1765d6" height="100"/> | <img src="https://github.com/user-attachments/assets/79d48cf7-bdd4-4ec1-831c-bb57d5d9f57d" height="100"/> | <img src="https://github.com/user-attachments/assets/74133185-5305-4361-a9e0-52e76f67de3d" height="100"/> | <img src="https://github.com/user-attachments/assets/a17e5ef4-f7be-48fb-ae41-5cd3b27f5918" height="100"/> | <img src="https://github.com/user-attachments/assets/00ef7243-5ac8-4f3a-8b43-2271ee79665c" height="100"/> | <img src="https://github.com/user-attachments/assets/87c92c58-17cc-4ee5-bd27-6e580623a86e" height="100"/>|
 | ------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------ |
 | 박경희 | 윤채연 | 전기범 | 장민근 | 조창욱 | 최해관 | 
@@ -122,7 +122,7 @@
 ---
 
 
-## 📑 프로젝트 기획
+# 📑 프로젝트 기획
 
 ### 📌 프로젝트 기획서
 [![프로젝트 기획서](https://github.com/Be09-Fin-Pado/.github/raw/main/profile/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EC%82%B0%EC%B6%9C%EB%AC%BC/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EA%B8%B0%ED%9A%8D/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EA%B8%B0%ED%9A%8D%EC%84%9C.png)](https://github.com/Be09-Fin-Pado/.github/raw/main/profile/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EC%82%B0%EC%B6%9C%EB%AC%BC/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EA%B8%B0%ED%9A%8D/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EA%B8%B0%ED%9A%8D%EC%84%9C.png)
@@ -130,9 +130,22 @@
 ### 📌 요구사항 정의서
 [![요구사항 정의서 보기](https://img.shields.io/badge/📄_요구사항_정의서-문서_열기-2E8B57?style=for-the-badge&logo=adobeacrobatreader&labelColor=darkgreen&labelWidth=20)](https://github.com/Be09-Fin-Pado/.github/blob/main/profile/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EC%82%B0%EC%B6%9C%EB%AC%BC/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EA%B8%B0%ED%9A%8D/%EC%9A%94%EA%B5%AC%EC%82%AC%EC%9E%A5%20%EC%A0%95%EC%9D%98%EC%84%9C.pdf)
 
+### 📌 단위 테스트 결과서
+[![단위 테스트 결과서 다운로드](https://img.shields.io/badge/📑_단위_테스트_결과서-다운로드-4A90E2?style=for-the-badge&logo=readthedocs&labelColor=blue)](https://github.com/user-attachments/files/18246698/Pado_.pdf)
+
+
 ### 📌 시스템 아키텍처
 ![image](https://github.com/user-attachments/assets/e21397c2-aa73-4579-a67f-245f0bf778af)
 
+### 📌 프로그램 사양서
+
+| **구성 요소**      | **사양**                                                                 |
+|--------------------|--------------------------------------------------------------------------|
+| **EC2 (Frontend)** | t2.medium (2 vCPU, 4GB RAM), Amazon Linux 2, Nginx, Vue.js 3, Vite       |
+| **EC2 (Backend)**  | t3.large (2 vCPU, 8GB RAM), Amazon Linux 2, Spring Boot, Spring Security |
+| **EC2 (AI)**       | t2.medium (2 vCPU, 4GB RAM), Amazon Linux 2, FastAPI, LangChain         |
+| **RDS**            | db.t3.medium (2 vCPU, 4GB RAM), MariaDB                                 |
+| **S3**             | 5GB 표준 스토리지, 총 5개의 버킷 (계약서, 사원 프로필, 증빙 자료 등)     |
 
 ### 📌 WBS (Work Breakdown Structure)
 [![Be09-Fin-WBS](https://github.com/Be09-Fin-Pado/.github/raw/main/profile/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EC%82%B0%EC%B6%9C%EB%AC%BC/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EA%B8%B0%ED%9A%8D/Be09-Fin-WBS.png)](https://github.com/Be09-Fin-Pado/.github/raw/main/profile/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EC%82%B0%EC%B6%9C%EB%AC%BC/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EA%B8%B0%ED%9A%8D/Be09-Fin-WBS.png)
@@ -140,7 +153,7 @@
 ### 📌 ERD(개념 모델링)
 ![image](https://github.com/user-attachments/assets/2be2d296-c653-4630-823c-2a251656b243)
 
-
+---
 
 # 📌 화면 설계서
 
@@ -267,3 +280,15 @@
 
 </details>
 
+---
+
+# 📝 느낀점 및 성과 <a id="self-assessment"></a>
+
+| **이름**   | **느낀점 및 성과**                                                                                                                                       |
+|------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **조창욱** | 온라인 강의로 시작한 백엔드 공부를 파이널 프로젝트로 실무 중심의 프로젝트 경험을 통해 한층 더 **전문적**으로 성장할 수 있었음. 특히 **스프링 시큐리티**와 **AWS 클라우드** 경험이 큰 자산이 됨.       |
+| **전기범** | 인사 관리 시스템이라는 쉽지 않은 프로젝트였음에도 **만족할 만한 결과물**을 만들어내어 뿌듯함. 특히 **AWS 배포**를 통해 전체 과정이 인상 깊었다.                |
+| **최해관** | 큰 규모의 **인사 관리 시스템**을 구축하며 협업의 중요성과 성취감을 느꼈고, 기술적으로도 크게 성장함. 복잡한 시스템을 완성한 경험이 **앞으로의 자산**이 될 것이다.   |
+| **장민근** | 처음 경험해보는 큰 규모의 프로젝트였지만 팀원들의 도움 덕분에 끝까지 **완주**할 수 있어 감사함. 이 경험을 바탕으로 더 **복잡한 프로젝트**에서도 역할을 기대함.     |
+| **윤채연** | 6주라는 시간 동안의 **기획부터 설계, 개발, 발표 준비**까지 모든 과정을 경험하며 소중한 경험을 쌓음. 기획, UI/UX 디자인, 프론트, 백엔드까지 모두 참여하며 **성장**할 수 있었다. |
+| **박경희** | 문서 파일을 이용한 데이터 일괄 처리 기능을 구현함. 프론트와 서버 모두를 구현하면서 **프론트/서버 개발자들의 협업**이 얼마나 중요한지를 알 수 있었다.        |
